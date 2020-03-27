@@ -1,4 +1,3 @@
-
 body {
     background-color: gray;
 }
@@ -34,95 +33,88 @@ body {
     width: 70%;
 }
 
+/* name text */
 .display-4 {
     font-size: 90px;
     color: whitesmoke;
+    text-shadow: 3px 3px black;
 
-    /* font-family: 'Baloo 2', cursive;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Liu Jian Mao Cao', cursive;
-    font-family: 'Anton', sans-serif;
-    font-family: 'Lobster', cursive;
-    font-family: 'Pacifico', cursive;
-    font-family: 'Amatic SC', cursive;
-    font-family: 'Permanent Marker', cursive;
-    font-family: 'Satisfy', cursive;
-    font-family: 'Special Elite', cursive; */
-    font-family: 'Bangers', cursive;
+    font-family: 'Satisfy', cursive; 
+
+    /* font-family: 'Baloo 2', cursive; */
+    /* font-family: 'Oswald', sans-serif; */
+    /* font-family: 'Liu Jian Mao Cao', cursive; */
+    /* font-family: 'Anton', sans-serif; */
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    /* font-family: 'Amatic SC', cursive; */
+    /* font-family: 'Permanent Marker', cursive; */
+    /* font-family: 'Special Elite', cursive; */
+    /* font-family: 'Bangers', cursive; */
 }
 
+/* software dev text */
 .jumbotron  p {
     color:whitesmoke;
+    text-shadow: 1px 1px black;
 }
 
 
 /* about me section */
-
 #homeProfilePic  {
     border-radius: 40%;
-    width: 60%;
+    width: 90%;
     height: 80%;
     min-width: 200px;
     min-height: 250px;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 5px;
 }
 
 
+#about-me-text {
+    line-height: 200%;
+}
+
 /* contact section */
-/* #contactMe  {
-    text-align: center;
-} */
-
-
-
-
+#contactMe {
+    align-content: center;
+}
 
 /* portfolio - featured */
 #featured {
     max-height: 215px;
 }
 
-
-
-
-
-
 /* portfolio  - all */
 .portfolioCards {
     margin-top: 20px;
 }
 
-#imgAll{
-    width: 180px;
-    height: 120px;
+#imgAll {
+    max-height: 190px;
 }
 
-#cardsAll {
-    max-width: 500px;
-    float: left;
+.all-projects-text {
+    font-weight: bold;
+}
+
+#projects-title {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    text-emphasis: bold;
+}
+#projects-title h2 {
+    font-size: 3rem;
+}
+
+.lead {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
 }
 
 
 
-
-
-
-@media screen and (max-width: 770) {
-    .card-img,
-    #featured {
-        width: 100%;
-    }
-
-    .col-md-4,
-    .col-md-8 {
-        float:left;
-    }
-
-}
-
-/* @media screen and (min-width: ) {
-     */
-/* } */
 
 
